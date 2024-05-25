@@ -6,7 +6,7 @@
   }
 
   body{
-    background-color: black;
+    background-color: white;
   }
   
   h1 {
@@ -142,7 +142,7 @@
     }
   
     .choices {
-      gap: 1rem;
+      gap: rem;
       margin-top: 2rem;
     }
   

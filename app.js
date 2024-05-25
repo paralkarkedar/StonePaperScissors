@@ -63,6 +63,8 @@ choices.forEach((choice) => {
 });
 
 
+let p = document.querySelector(".score");
+let div = document.querySelector(".kedarsir")
 let btn = document.querySelector("button")
 let mode = "light"
 btn.addEventListener("click",() =>{
@@ -70,9 +72,15 @@ btn.addEventListener("click",() =>{
     if(mode === "light"){
         mode = "dark";
         document.querySelector("body").style.backgroundColor = "black";
+        p.style.backgroundColor = "#081b33"
+        div.style.backgroundColor = "#081b33"
     }else{
         mode = "light";
         document.querySelector("body").style.backgroundColor = "white";
+        p.style.backgroundColor = "white"
+        div.style.backgroundColor = "white"
+
+
     }
     console.log(mode);
 
