@@ -72,8 +72,8 @@ btn.addEventListener("click",() =>{
     if(mode === "light"){
         mode = "dark";
         document.querySelector("body").style.backgroundColor = "black";
-        p.style.backgroundColor = "#081b33"
-        div.style.backgroundColor = "#081b33"
+        p.style.backgroundColor = "#BDC3C7"
+        div.style.backgroundColor = "#BDC3C7"
     }else{
         mode = "light";
         document.querySelector("body").style.backgroundColor = "white";
